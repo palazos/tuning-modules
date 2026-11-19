@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "moduleId": "vpn",
+      "displayName": "VPN Rooms",
+      "description": "Virtual LAN rooms so games can find each other on a shared network.",
+      "githubRepo": "palazos/tuning-mod-vpn",
+      "releaseAsset": "vpn-module.zip"
+    }
+  ]
+}
