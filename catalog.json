@@ -7,6 +7,27 @@
       "description": "Virtual LAN rooms so games can find each other on a shared network.",
       "githubRepo": "palazos/tuning-mod-vpn",
       "releaseAsset": "vpn-module.zip"
+    },
+    {
+      "moduleId": "fg-tuning",
+      "displayName": "Tuning Frame Generation",
+      "description": "Tuning FG (Fixed / Dynamic / Power Saver) for Winlator.",
+      "githubRepo": "palazos/tuning-mod-fg-tuning",
+      "releaseAsset": "fg-tuning-module.zip"
+    },
+    {
+      "moduleId": "fg-lsfg",
+      "displayName": "LSFG Frame Generation",
+      "description": "Lossless Scaling frame generation for Winlator Tuning.",
+      "githubRepo": "palazos/tuning-mod-fg-lsfg",
+      "releaseAsset": "fg-lsfg-module.zip"
+    },
+    {
+      "moduleId": "fg-wfg",
+      "displayName": "WFG Frame Generation",
+      "description": "Winlator / DIS frame generation engine.",
+      "githubRepo": "palazos/tuning-mod-fg-wfg",
+      "releaseAsset": "fg-wfg-module.zip"
     }
   ]
 }
