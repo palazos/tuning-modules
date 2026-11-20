@@ -28,6 +28,13 @@
       "description": "Winlator / DIS frame generation engine.",
       "githubRepo": "palazos/tuning-mod-fg-wfg",
       "releaseAsset": "fg-wfg-module.zip"
+    },
+    {
+      "moduleId": "touchsim",
+      "displayName": "Touch Screen Simulation",
+      "description": "Absolute touch-to-pointer for strategy games without native touch support.",
+      "githubRepo": "palazos/tuning-mod-touchsim",
+      "releaseAsset": "touchsim-module.zip"
     }
   ]
 }
