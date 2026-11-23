@@ -35,6 +35,13 @@
       "description": "Absolute touch-to-pointer for strategy games without native touch support.",
       "githubRepo": "palazos/tuning-mod-touchsim",
       "releaseAsset": "touchsim-module.zip"
+    },
+    {
+      "moduleId": "stores",
+      "displayName": "Stores",
+      "description": "Steam, itch.io and GOG libraries, downloads and launch.",
+      "githubRepo": "palazos/tuning-mod-stores",
+      "releaseAsset": "stores-module.zip"
     }
   ]
 }
