@@ -4,49 +4,49 @@
     {
       "moduleId": "vpn",
       "displayName": "VPN Rooms",
-      "description": "Creates a virtual LAN room so games on different devices can find each other. Only that room's network is routed, not your internet connection.",
+      "description": "Puts several Winlator devices on the same virtual LAN so their games can find each other. From Rooms you create a room or join one in the list. The host is the hub, chooses the player limit (up to 25), and repeats LAN broadcasts so games can discover matches. Only the room's private network is routed. Hosting needs a connection that other players can reach; Wi-Fi works more often than mobile data.",
       "githubRepo": "palazos/tuning-mod-vpn",
       "releaseAsset": "vpn-module.zip"
     },
     {
       "moduleId": "fg-tuning",
       "displayName": "Tuning Frame Generation",
-      "description": "Tuning's frame generation: Fixed, Dynamic, and Power Saver. It fills the refreshes the game leaves empty, up to the screen's refresh rate.",
+      "description": "Tuning's frame generation, configured from the in-game sidebar. Fixed inserts frames at a steady multiplier. Dynamic only fills the refreshes the game leaves empty, up to the screen refresh, and still shows every real frame; you can cap its target rate. Power Saver slows the game so the generated frames can fill the refresh. Quality is chosen in the same sidebar. Pick this engine, LSFG, or WFG for a game.",
       "githubRepo": "palazos/tuning-mod-fg-tuning",
       "releaseAsset": "fg-tuning-module.zip"
     },
     {
       "moduleId": "fg-lsfg",
       "displayName": "LSFG Frame Generation",
-      "description": "Lossless Scaling frame generation. It draws extra frames from the game image. Use it instead of Tuning FG or WFG.",
+      "description": "Lossless Scaling frame generation. After you install it, choose LSFG in the in-game frame generation menu and turn it on there. It generates extra frames from the frames the game already drew. Mode, multiplier, and quality are in the sidebar. It is a separate engine from Tuning FG and WFG: run one of them at a time.",
       "githubRepo": "palazos/tuning-mod-fg-lsfg",
       "releaseAsset": "fg-lsfg-module.zip"
     },
     {
       "moduleId": "fg-wfg",
       "displayName": "WFG Frame Generation",
-      "description": "WFG frame generation. It draws extra frames from the game image. Use it instead of Tuning FG or LSFG.",
+      "description": "WFG frame generation. After you install it, choose WFG in the in-game frame generation menu and turn it on there. It generates extra frames from the frames the game already drew. Mode, multiplier, and quality are in the sidebar. It is a separate engine from Tuning FG and LSFG: run one of them at a time.",
       "githubRepo": "palazos/tuning-mod-fg-wfg",
       "releaseAsset": "fg-wfg-module.zip"
     },
     {
       "moduleId": "touchsim",
       "displayName": "Touch Screen Simulation",
-      "description": "Moves the pointer to the exact spot you touch, for strategy games without touch controls. One finger moves it; a second finger and a pinch handle the other button and the scroll wheel.",
+      "description": "For strategy games that have no touch controls. A finger moves the pointer to the exact spot you touch. With autoclick the left button goes down on contact; without it, a short hold clicks and a finger that stays still does not. Two fingers hold the other button while you drag, and opening or closing a pinch turns the scroll wheel. Invert and sensitivity are in the in-game sidebar. Relative mouse stays off while this mode is on.",
       "githubRepo": "palazos/tuning-mod-touchsim",
       "releaseAsset": "touchsim-module.zip"
     },
     {
       "moduleId": "stores",
       "displayName": "Stores",
-      "description": "Steam, GOG, and itch.io. Sign in, download games, and launch them from the library.",
+      "description": "Adds Steam, GOG, and itch.io. Sign in, browse the library, download and install games, and launch them in a container. Steam can show playtime and achievements while you are signed in. Game shortcuts remember the store they came from.",
       "githubRepo": "palazos/tuning-mod-stores",
       "releaseAsset": "stores-module.zip"
     },
     {
       "moduleId": "steampatches",
       "displayName": "Steam Game Patches",
-      "description": "Small file patches so specific Steam games can run online here. Squad Blast is included. Stores must be installed.",
+      "description": "Changes a few bytes in specific Steam games so they can run correctly here. The patch is applied when a download finishes and again on each launch. The shortcut switch Tuning Game Patch is on by default; turning it off puts the original files back. Open the info button after installing to see which games this version covers. Squad Blast is included, so public matches can start. Stores must be installed.",
       "githubRepo": "palazos/tuning-mod-steampatches",
       "releaseAsset": "steampatches-module.zip",
       "author": "Tuning",
