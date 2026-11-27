@@ -4,49 +4,49 @@
     {
       "moduleId": "vpn",
       "displayName": "VPN Rooms",
-      "description": "Virtual LAN rooms so games can find each other on a shared network.",
+      "description": "Creates a virtual LAN room so games on different devices can find each other. Only that room's network is routed, not your internet connection.",
       "githubRepo": "palazos/tuning-mod-vpn",
       "releaseAsset": "vpn-module.zip"
     },
     {
       "moduleId": "fg-tuning",
       "displayName": "Tuning Frame Generation",
-      "description": "Tuning FG (Fixed / Dynamic / Power Saver) for Winlator.",
+      "description": "Tuning's frame generation: Fixed, Dynamic, and Power Saver. It fills the refreshes the game leaves empty, up to the screen's refresh rate.",
       "githubRepo": "palazos/tuning-mod-fg-tuning",
       "releaseAsset": "fg-tuning-module.zip"
     },
     {
       "moduleId": "fg-lsfg",
       "displayName": "LSFG Frame Generation",
-      "description": "Lossless Scaling frame generation for Winlator Tuning.",
+      "description": "Lossless Scaling frame generation. It draws extra frames from the game image. Use it instead of Tuning FG or WFG.",
       "githubRepo": "palazos/tuning-mod-fg-lsfg",
       "releaseAsset": "fg-lsfg-module.zip"
     },
     {
       "moduleId": "fg-wfg",
       "displayName": "WFG Frame Generation",
-      "description": "Winlator / DIS frame generation engine.",
+      "description": "WFG frame generation. It draws extra frames from the game image. Use it instead of Tuning FG or LSFG.",
       "githubRepo": "palazos/tuning-mod-fg-wfg",
       "releaseAsset": "fg-wfg-module.zip"
     },
     {
       "moduleId": "touchsim",
       "displayName": "Touch Screen Simulation",
-      "description": "Absolute touch-to-pointer for strategy games without native touch support.",
+      "description": "Moves the pointer to the exact spot you touch, for strategy games without touch controls. One finger moves it; a second finger and a pinch handle the other button and the scroll wheel.",
       "githubRepo": "palazos/tuning-mod-touchsim",
       "releaseAsset": "touchsim-module.zip"
     },
     {
       "moduleId": "stores",
       "displayName": "Stores",
-      "description": "Steam, itch.io and GOG libraries, downloads and launch.",
+      "description": "Steam, GOG, and itch.io. Sign in, download games, and launch them from the library.",
       "githubRepo": "palazos/tuning-mod-stores",
       "releaseAsset": "stores-module.zip"
     },
     {
       "moduleId": "steampatches",
       "displayName": "Steam Game Patches",
-      "description": "Same-size byte patches for Steam games, applied to the install folder.",
+      "description": "Small file patches so specific Steam games can run online here. Squad Blast is included. Stores must be installed.",
       "githubRepo": "palazos/tuning-mod-steampatches",
       "releaseAsset": "steampatches-module.zip",
       "author": "Tuning",
