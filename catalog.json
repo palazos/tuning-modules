@@ -11,7 +11,7 @@
     {
       "moduleId": "fg-tuning",
       "displayName": "Tuning Frame Generation",
-      "description": "Tuning's frame generation, configured from the in-game sidebar. Fixed inserts frames at a steady multiplier. Dynamic only fills the refreshes the game leaves empty, up to the screen refresh, and still shows every real frame; you can cap its target rate. Power Saver slows the game so the generated frames can fill the refresh. Quality is chosen in the same sidebar. Pick this engine, LSFG, or WFG for a game.",
+      "description": "Tuning's frame generation, configured from the in-game sidebar. Fixed inserts frames at a steady multiplier. Dynamic only fills the refreshes the game leaves empty, up to the screen refresh, and still shows every real frame; you can cap its target rate. Quality is chosen in the same sidebar. Pick this engine, LSFG, or WFG for a game.",
       "githubRepo": "palazos/tuning-mod-fg-tuning",
       "releaseAsset": "fg-tuning-module.zip"
     },
