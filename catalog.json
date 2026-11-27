@@ -51,7 +51,18 @@
       "releaseAsset": "steampatches-module.zip",
       "author": "Tuning",
       "category": "Stores",
-      "requires": ["stores"]
+      "requires": [
+        "stores"
+      ]
+    },
+    {
+      "moduleId": "controller-improves",
+      "displayName": "Tuning Controller Improves",
+      "description": "Dildo. Keeps each game's on-screen profile, opacity, visibility, timeout and haptics. Haptics follow the sidebar switch and do not buzz the Dynamic Stick. Gamepads already connected get a slot before Wine starts, and a pad plugged in later is assigned immediately. The profile editor stays the one from Ludashi.",
+      "githubRepo": "palazos/tuning-mod-controller-improves",
+      "releaseAsset": "controller-improves-module.zip",
+      "author": "Tuning",
+      "category": "Input"
     }
   ]
 }
